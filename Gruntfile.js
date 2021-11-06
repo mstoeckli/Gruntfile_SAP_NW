@@ -1,3 +1,9 @@
+/** @desc Pre-requisites 
+ *        Node.js / NPM -> https://nodejs.org/en/ 
+ *        ADT (AABAP Development Tools) enabled and accesible
+ *        Activate ADT: Transaction SICF with path "default_host/sap/opu/odata/sap/adt_srv 
+ *                      If it's greyed out you simply need to right-click and select 'Activate Service'. */
+
 "use strict";
 module.exports = (grunt) => {
     let sUser = grunt.option("user");
